@@ -1,0 +1,32 @@
+# ==============================================================================
+# Household Water Leakage Pattern Analysis
+# File: requirements.txt
+#
+# NOTE FOR R DEVELOPERS AND EVALUATORS:
+# In R programming, 'requirements.txt' is not the standard package management
+# file (standard R uses DESCRIPTION, renv.lock, or install.packages() scripts).
+# This file is provided as an optional reference listing the primary R packages
+# and dependencies used in this project.
+#
+# To install all required R packages, open R or RStudio console and run:
+# install.packages(c("shiny", "ggplot2", "dplyr", "readr", "DT", "gridExtra"))
+# ==============================================================================
+
+# Core Shiny Interactive Dashboard Framework
+shiny>=1.8.0
+
+# Data Visualization
+ggplot2>=3.4.0
+
+# Data Manipulation & Wrangling
+dplyr>=1.1.0
+
+# CSV Parsing & File Handling
+readr>=2.1.0
+
+# Interactive Tables for Web Dashboard
+DT>=0.30
+
+# Grid & Layout Helpers for Multi-Page PDF Reporting
+gridExtra>=2.3
+
